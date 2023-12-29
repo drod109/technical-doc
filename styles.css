@@ -141,9 +141,12 @@ pre {
     background-color: rgba(231, 231, 231, 0.933);
     color: var(--code-color);
     max-width: 100%;
-    padding: 0px;
     overflow: auto;
     border-radius: 5px;
+    display: flex;
+}
+code {
+    font-size: 1rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
