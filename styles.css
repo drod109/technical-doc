@@ -12,6 +12,8 @@
     --comment-color: #5c6370; 
     --icon-color: #000;
     --code-color: #1b1b1b;
+    --punctuation: #858585;
+    --keyword: #0069c2;
 }
 
 html.dark-theme {
@@ -49,6 +51,9 @@ a {
 #function-declarations,
 #reference {
   scroll-margin-top: 50px;
+}
+span {
+    display: inline-block;
 }
 #toggle-theme svg {
     fill: var(--icon-color);
@@ -108,10 +113,14 @@ main {
 .menu-icon {
     opacity: 0;
 }
-.menu-item>a {
+.menu-item > a,
+#reference a,
+#what-you-should-know a {
     text-decoration: none;
 }
-.menu-item>a:hover{
+.menu-item > a:hover,
+#reference a:hover,
+#what-you-should-know a:hover {
     color: var(--link-color);
 }
 .menu-item {
@@ -131,16 +140,16 @@ select,
 textarea {
     font-family: inherit;
 }
-pre {
+code {
+    font-size: 1rem;
     background-color: rgba(231, 231, 231, 0.933);
     color: var(--code-color);
     max-width: 100%;
     overflow: auto;
     border-radius: 5px;
     display: flex;
-}
-code {
-    font-size: 1rem;
+    padding: 30px;
+    white-space: nowrap;
 }
 
 @media (prefers-reduced-motion: no-preference) {
