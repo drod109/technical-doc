@@ -34,6 +34,7 @@ This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- JavaScript 
 
 ## Author
 
