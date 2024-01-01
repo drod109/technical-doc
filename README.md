@@ -17,11 +17,11 @@ This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp
 
 ### Screenshot
 
-Light theme:
-![Project Screenshot Light Theme](https://i.postimg.cc/VNSbKH0N/Screenshot-2024-01-01-070237-light.png)
+- Light theme:
+  ![Project Screenshot Light Theme](https://i.postimg.cc/VNSbKH0N/Screenshot-2024-01-01-070237-light.png)
 
-Dark theme:
-![Project Screenshot Dark Theme](https://i.postimg.cc/XvTBmc9k/Screenshot-2024-01-01-070410-dark.png)
+- Dark theme:
+  ![Project Screenshot Dark Theme](https://i.postimg.cc/XvTBmc9k/Screenshot-2024-01-01-070410-dark.png)
 
 ### Links
 
