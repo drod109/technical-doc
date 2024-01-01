@@ -1,6 +1,6 @@
 # freeCodeCamp.org - Technical Documentation Solution
 
-This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp.org](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page). freeCodeCamp provides free coding courses help you improve your skills.
+This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page). freeCodeCamp provides free coding courses help you improve your skills.
 
 ## Table of contents
 
@@ -9,8 +9,6 @@ This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -25,7 +23,7 @@ This is a solution to the [Build a Technical Documentation Pagee on freeCodeCamp
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/drod109/technical-doc)
+- Code Repo: [Github](https://github.com/drod109/technical-doc)
 - Live Site 1 URL: [QR Code Component | Live Preview](https://drod109.github.io/technical-doc/)
 - Live Site 2 URL: [QR Code Component | Live Preview](https://codepen.io/drodrigues/full/BabNdrq)
 
