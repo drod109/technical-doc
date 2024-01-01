@@ -52,9 +52,6 @@ a {
 #reference {
   scroll-margin-top: 50px;
 }
-span {
-    display: inline-block;
-}
 #toggle-theme svg {
     fill: var(--icon-color);
 }
@@ -113,12 +110,12 @@ main {
 .menu-icon {
     opacity: 0;
 }
-.menu-item > a,
+.menu-item>a,
 #reference a,
 #what-you-should-know a {
     text-decoration: none;
 }
-.menu-item > a:hover,
+.menu-item>a:hover,
 #reference a:hover,
 #what-you-should-know a:hover {
     color: var(--link-color);
@@ -148,7 +145,7 @@ code {
     overflow: auto;
     border-radius: 5px;
     display: flex;
-    padding: 30px;
+    padding: 20px;
     white-space: nowrap;
 }
 
@@ -171,16 +168,18 @@ code {
         background-color: #fff; 
     }
     #toggle-theme {
-        top: 30px;
-        right: 5px
+        position: fixed;
+        right: 10px;
+        bottom: -90vh;
     }
     .menu-icon {
         display: block;
         position: fixed;
         top: 10px;
-        right: 15px;
+        right: 20px;
         z-index: 0;
         opacity: 100;
+        /* Additional styling as required */
     }
     main {
         width: 100%;
@@ -191,10 +190,10 @@ code {
         position: fixed;
         top: 0;
         left: 0;
-        width: 50%;
+        width: 70%;
         height: 100vh;
         background-color: var(--background-color);
         z-index: 100;
-        transition: 2s ease;
+        transition: 1s ease;
     }
 }
